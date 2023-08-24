@@ -1,0 +1,30 @@
+:root {
+    margin: 0px;
+    padding: 0px;
+    background-color: #1f2937;
+    color: white;
+    max-height: 100vh;
+    max-width: 100vw;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+    min-height: 100%;
+}
+
+h1 {
+    margin: 0px;
+    background-color: #581c87;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.bookContainer {
+
+}
+
+.addContainer {
+
+}

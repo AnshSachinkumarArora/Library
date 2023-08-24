@@ -4,10 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
     <script src="scripts.js"></script>
 </head>
 <body>
-    
+    <dialog id="addBook">
+        <form>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+            <label for="author">Author</label>
+            <input type="text" name="author" id="author">
+            <label for="pages">Pages</label>
+            <input type="text" name="pages" id="pages">
+            <label for="read">Read?</label>
+            <input type="checkbox" name="read" id="read">
+            <button value="cancel" formmethod="dialog">Cancel</button>
+            <button value="default" id="confirm">Confirm</button>
+        </form>
+    </dialog>
+    <h1>A Library App</h1>
+    <div class="bookContainer">
+        <h2>Books</h2>
+        <div class="books"></div>
+    </div>
+    <div class="addContainer">
+        <button id="add" name="add">+</button>
+        <label for="add">Add a book!</label>
+    </div>
 </body>
 </html>
