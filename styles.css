@@ -22,9 +22,11 @@ h1 {
 }
 
 .bookContainer {
-
+    
 }
 
 .addContainer {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
